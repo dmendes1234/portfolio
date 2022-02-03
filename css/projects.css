@@ -56,15 +56,15 @@ body {
 /* rtl:end:ignore */
 
 
-/* Featurettes
+/* projects
 ------------------------- */
 
-.featurette-divider {
+.project-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the projects headings */
-.featurette-heading {
+.project-heading {
   font-weight: 300;
   line-height: 1;
   /* rtl:remove */
@@ -83,13 +83,13 @@ body {
     line-height: 1.4;
   }
 
-  .featurette-heading {
+  .project-heading {
     font-size: 50px;
   }
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
+  .project-heading {
     margin-top: 7rem;
   }
 }
