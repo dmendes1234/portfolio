@@ -7,14 +7,12 @@
 }
 
 .download-resume-btn {
+  color: white;
   background-color: rgb(158, 46, 93);
 }
 
 .download-resume-btn:hover {
   opacity: 0.9;
-}
-
-.download-resume-btn a {
   color: white;
 }
 
