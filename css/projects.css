@@ -35,6 +35,10 @@ body {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
+.row.project:last-of-type {
+  margin-bottom: 5rem;
+}
+
 /* Thin out the projects headings */
 .project-heading {
   font-size: calc(1.325rem + .9vw);
