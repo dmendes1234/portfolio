@@ -19,3 +19,17 @@
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
 }
+
+/*  h1 greet message (animated) */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.main-headline {
+	font-family: "Montserrat";
+  background-image: url(https://media0.giphy.com/media/10l8fc00NMNJNm/giphy.gif?cid=ecf05e47aabr9lg9m4dbmw9nl6t243ywqelbn5gtfd8uu4it&rid=giphy.gif&ct=g);
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+
+}
+
