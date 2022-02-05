@@ -28,15 +28,19 @@
   </style>
 
   <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/section-headline.css" rel="stylesheet">
   <link href="css/projects.css" rel="stylesheet">
   <link href="css/hero-header.css" rel="stylesheet">
+  <link href="css/section-divider.css" rel="stylesheet">
   <link href="css/footer.css" rel="stylesheet">
+  <link href="css/contact-form.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <div class="container pb-5">
-      <div class="row flex-row-reverse align-items-center g-5 py-2">
+      <div class="row flex-row-reverse align-items-center py-2">
         <div class="col-12 col-md-6">
           <img src="images/dmendes44_4.png" class="d-block mx-lg-auto img-fluid" alt="Dario Mendes" width="500"
             height="0" loading="lazy">
@@ -48,8 +52,7 @@
             Scroll down to see what I've learned so far and feel free to contact me.
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="assets/dmendes-resume.pdf" class="btn download-resume-btn btn-lg px-4 text-decoration-none"
-              target="_blank">
+            <a href="assets/dmendes-resume.pdf" class="btn resume-btn btn-lg px-4 text-decoration-none" target="_blank">
               Resume
             </a>
             <a href="https://www.linkedin.com/in/dario-mendes-00752818a/" class="btn btn-outline-secondary btn-lg px-4"
@@ -72,7 +75,7 @@
 
       <!-- START THE projectS -->
 
-      <h2 id="projectsHeadline" class="text-center display-6">Projects</h2>
+      <h2 class="section-headline text-center display-6">Projects</h2>
 
       <div class="row project">
         <div class="col-md-7 order-md-2">
@@ -137,14 +140,49 @@
         </div>
       </div>
       <!-- /END THE projectS -->
-    </section><!-- /.container -->
-    <!-- FOOTER -->
+    </section>
+
     <div class="b-example-divider"></div>
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+
+    <!-- Contact section -->
+    <h2 class="section-headline d-flex flex-column align-items-center display-6">
+      Contact me
+      <p class="lead col-12 col-md-10 col-lg-8 col-xl-6 text-center">
+        I would be honored to receive any kind of message (feedback on my portfolio, suggetions for career path,
+        potential hiring).
+      </p>
+    </h2>
+    <section class="container contact-form col-12 col-md-10 col-lg-8 col-xl-6">
+      <form id="contact-form" action="https://formspree.io/f/xyyoebwd" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name*</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail*</label>
+          <input type="email" class="form-control" id="email" name="_replyto" required>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" name="subject">
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Message*</label>
+          <textarea class="form-control" id="subject" rows="3" name="message" required></textarea>
+        </div>
+        <button type="submit" id="submit" class="btn send-btn">Send</button>
+      </form>
+    </section>
+    <!-- End of Contact section -->
   </main>
+
+  <div class="b-example-divider"></div>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
