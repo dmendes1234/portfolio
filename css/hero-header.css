@@ -26,7 +26,7 @@
 
 .main-headline {
 	font-family: "Montserrat";
-  background-image: url(https://media0.giphy.com/media/10l8fc00NMNJNm/giphy.gif?cid=ecf05e47aabr9lg9m4dbmw9nl6t243ywqelbn5gtfd8uu4it&rid=giphy.gif&ct=g);
+  background-image: url('../assets/giphy.webp');
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
